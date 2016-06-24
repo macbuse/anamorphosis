@@ -6,9 +6,7 @@ import numpy as np
 
 import cv2
 
-#takes an RGB image  file xxx.jpg
-#and writes anaglyph.jpg
-
+#reads video stream from webcam using opencv2
 #2 choices for the transform 
 #- conical_anamorphosis
 #- cylindrical_anamorphosis
